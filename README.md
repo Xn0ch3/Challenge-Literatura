@@ -1,9 +1,10 @@
 # 📚 Challenge Literatura - App de Gestión de Libros y Autores
 
-![Banner](https://cdn.pixabay.com/photo/2017/02/10/10/33/book-2053756_1280.jpg)
+[![Banner](https://cdn.pixabay.com/photo/2017/02/10/10/33/book-2053756_1280.jpg)](https://raw.githubusercontent.com/Xn0ch3/Challenge-Literatura/main/resources/ChallengeLiteratura.png)
 
 Bienvenido al **Challenge Literatura**, una aplicación desarrollada en **Java con Spring Boot** que permite consultar, almacenar y filtrar libros y autores usando datos de la API de [Gutendex](https://gutendex.com/).
 
+https://raw.githubusercontent.com/Xn0ch3/Challenge-Literatura/main/resources/20250819-0124-29.9083765.mp4
 ---
 
 ## 🔹 Tabla de Contenidos
@@ -154,4 +155,5 @@ src/main/java/com/aluracursos/desafioSpringboot
 
 Este proyecto está bajo la licencia MIT.
 ¡Comparte, aprende y contribuye!
+
 
