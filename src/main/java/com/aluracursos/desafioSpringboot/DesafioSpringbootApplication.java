@@ -4,17 +4,19 @@ import com.aluracursos.desafioSpringboot.Principal.Principal;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class DesafioSpringbootApplication  implements CommandLineRunner {
+public class DesafioSpringbootApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DesafioSpringbootApplication.class, args);
 	}
 
-	@Override
-	public void run(String... args) throws Exception {
-		Principal principal = new Principal();
-		principal.muestraMenu();
+	@Bean
+	public CommandLineRunner run(Principal principal) {
+		return args -> {
+			principal.muestraMenu();
+		};
 	}
 }
